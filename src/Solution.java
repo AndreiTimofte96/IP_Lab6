@@ -1,10 +1,10 @@
 public class Solution {
     private int nrPreferencesFulfilled;
-    Map <User, String> timetable;
+    Timetable timetable;
 
-    Solution(){
+    Solution() {
         nrPreferencesFulfilled = 0;
-        timetable = new HashMap<>();
+        timetable = new Timetable();
     }
 
     public int getNrPreferencesFulfilled() {

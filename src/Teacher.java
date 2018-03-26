@@ -1,4 +1,4 @@
 
-public class Teacher extends User implements ICanTeach{
+public class Teacher extends User implements ICanTeach {
 
 }
