@@ -1,6 +1,8 @@
+import java.util.*;
+
 public abstract class ISolver {
-    Solution solution;
-    void abstract solve(List<Constraint> constraints);
+    protected Solution solution;
+    public abstract void solve(List<Constraint> constraints);
 
     public Solution getSolution() {
         return solution;

@@ -1,4 +1,6 @@
-public class NSTSolver implements ISolver {
+import java.util.*;
+
+public class NSTSolver extends ISolver {
     private static NSTSolver nstSolver = new NSTSolver();
 
     private NSTSolver(){
@@ -7,6 +9,6 @@ public class NSTSolver implements ISolver {
 
     @Override
     public void solve(List<Constraint> constraints) {
-        this.solution = new Solution();
+        solution = new Solution();
     }
 }
