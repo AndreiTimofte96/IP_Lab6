@@ -6,6 +6,7 @@ public class Collaborator extends User implements ICanTeach{
 
 	@Override
 	public void addPreference(String preference) {
+		System.out.println("Collab preference");
 		preferences.add(preference);
 	}
 }

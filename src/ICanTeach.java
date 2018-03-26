@@ -7,4 +7,8 @@ public interface ICanTeach {
 	public default void addPreference(String preference) {
 		preferences.add(preference);
 	}
+	
+	public default List<String> getPreferences() {
+		return preferences;
+	}
 }
