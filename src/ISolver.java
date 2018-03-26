@@ -1,3 +1,4 @@
 public interface ISolver {
-    Solution solve(List<Constraint> constraints);
+    Solution solution;
+    void solve(List<Constraint> constraints);
 }

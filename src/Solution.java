@@ -7,6 +7,10 @@ public class Solution {
         timetable = new Timetable();
     }
 
+    public void setTimetable(Timetable timetable) {
+        this.timetable = timetable;
+    }
+
     public int getNrPreferencesFulfilled() {
         return nrPreferencesFulfilled;
     }
