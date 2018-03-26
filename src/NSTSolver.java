@@ -1,4 +1,3 @@
-
 public class NSTSolver implements ISolver{
 
 	@Override
